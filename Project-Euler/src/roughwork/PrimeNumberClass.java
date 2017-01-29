@@ -115,15 +115,15 @@ public class PrimeNumberClass {
 
     public static void main(String[] args) {
         long startTime = System.nanoTime();
-        System.out.println(findPrimeAtPosition(80));
+        System.out.println(findPrimeAtPosition(800000));
         long endTime = System.nanoTime();
-        System.out.println("Time Taken in milli seconds is [" + (endTime - startTime) / 1000000.0 + "]");
+        System.out.println("Time Taken in seconds is [" + (endTime - startTime) / 1000000000.0 + "]");
 
-        long num = 29996224275833L;
+        /*long num = 29996224275833L;
         startTime = System.nanoTime();
         System.out.println(isPrime(num));
         endTime = System.nanoTime();
-        System.out.println("Time Taken in milli seconds is [" + (endTime - startTime) / 1000000.0 + "]");
+        System.out.println("Time Taken in milli seconds is [" + (endTime - startTime) / 1000000.0 + "]");*/
 
         /*starTime = System.nanoTime();
         if (num % 10 == 5) {
